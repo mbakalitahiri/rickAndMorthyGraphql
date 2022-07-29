@@ -7,6 +7,7 @@
 
 const express = require("express");
 const expressGraphql = require("express-graphql");
+const fetch = require("node-fetch");
 const {
   GraphQLSchema,
   GraphQLObjectType,
