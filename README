@@ -1,0 +1,12 @@
+1) npm intall
+2) node main.js or npm run start
+3) Navigate to http://localhost:3000/graphql
+4) There is a folder called schemas:
+    Character Schema
+    Location Schema
+    Episode Schema
+    Origin Schema
+4) You will be able to get a list of :
+    Characters or a sigle one Character, ex. query{ character( id: 22 ) { id name gender  }
+    Locations or single Location, ex. query{ location(id: 1) {id dimension}}
+    Episodes or a single Episode. ex. query{ episode(id: 1) {id name}}
